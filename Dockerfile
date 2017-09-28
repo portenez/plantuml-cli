@@ -1,5 +1,5 @@
 FROM portenez/docker-builder:xenial-node8-nightwatch
-
+MAINTAINER Victor Garcia <info@vgarcia.me>
 # RUN apk add --update ca-certificates openssl && update-ca-certificates
 WORKDIR /opt/plantuml
 
