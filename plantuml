@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+DIR=/opt/plantuml
+
+java -jar ${DIR}/plantuml.jar $@
